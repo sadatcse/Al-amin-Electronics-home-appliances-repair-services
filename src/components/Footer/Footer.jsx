@@ -10,6 +10,8 @@ import {
   FaMobileAlt,
 } from "react-icons/fa";
 
+import { MdEmail } from "react-icons/md";
+
 const Footer = () => {
   return (
     <div className="rounded-t-3xl bg-gradient-to-r from-violet-950 to-violet-900">
@@ -23,11 +25,14 @@ const Footer = () => {
      
             <br />
             <div className="flex items-center gap-3">
+            <MdEmail />
+              <p>alaminelec5@gmail.com</p>
+            </div>
+            <div className="flex items-center mt-3 gap-3">
               <FaLocationArrow />
               <p>House-06,Road-01, Chad Uddan</p>
             </div>
-            <div className="flex items-center gap-3">
-            <FaLocationArrow />
+            <div className="flex items-center ml-8 gap-3">
               <p>Mohammadpur Dhaka -1207 </p>
             </div>
             <div className="mt-3 flex items-center gap-3">
@@ -66,6 +71,12 @@ const Footer = () => {
                 <ul className="flex flex-col gap-3">
                   <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     Privacy Policy
+                  </li>
+                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                  Terms of Service
+                  </li>
+                  <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
+                  Cookies Settings
                   </li>
                   <li className="cursor-pointer transition-all duration-300 hover:translate-x-[2px]">
                     Services

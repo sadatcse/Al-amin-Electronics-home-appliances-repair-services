@@ -4,7 +4,7 @@ import { Toaster } from 'react-hot-toast';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import './root.css';
+
 import Navbar from './navbar/Navbar';
 
 import Footer from './Footer/Footer';

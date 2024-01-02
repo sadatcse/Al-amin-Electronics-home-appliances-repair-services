@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import Navbar from './Universal/Navbar';
 import Footer from './Universal/Footer';
-import Copyright from './Universal/copyright';
+import Copyright from './Universal/Copyright';
 
 
 

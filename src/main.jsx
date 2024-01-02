@@ -1,10 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-
-// importing slick carousel css
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import './index.css'
 import {HelmetProvider } from 'react-helmet-async';
 // Import React Router dom 
@@ -16,19 +11,36 @@ import {
 
 
 import {
-
   QueryClient,
   QueryClientProvider,
-} from '@tanstack/react-query';
-
-import Login from './components/Authentication/Login';
-import Register from './components/Authentication/Register.jsx';
-import Root from './components/Root.jsx';
-import Error404 from './components/Page/Error404.jsx';
-import Home from './components/Page/Home.jsx';
-
+} from '@tanstack/react-query'
 
 const queryClient = new QueryClient();
+
+// Import Browser Root
+
+import Root from './components/Root';
+import AuthProvider from './providers/AuthProvider';
+
+
+
+// Registration and Login 
+
+import Register from './components/Authentication/Register';
+import Login from './components/Authentication/Login';
+
+//Page 
+
+import Home from './components/Page/Home';
+import Error404 from './components/Page/Error404';
+import Dashboard from './components/Layout/Dashboard';
+
+
+import PrivateRoot from './components/Root/PrivateRoot';
+// import AdminRoute from './components/Root/AdminRoute';
+
+MyProfile
+import MyProfile from './components/Page/Dashboard/Universal/MyProfile';
 
 
 const router = createBrowserRouter([
@@ -54,16 +66,28 @@ const router = createBrowserRouter([
        
     ]
   },
+  {
+    path: "dashboard",
+    element: <PrivateRoot><Dashboard></Dashboard></PrivateRoot>,
+    errorElement: <Error404></Error404>,
+    children: [
+      {
+        path:'profile',
+        element:<PrivateRoot><MyProfile></MyProfile></PrivateRoot>
+        
+      },
+    ]
+  },
 ]);
-
-
-
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
      <QueryClientProvider client={queryClient}>
      <HelmetProvider>
+    <AuthProvider>
       <RouterProvider router={router} />
+      </AuthProvider>
       </HelmetProvider>
       </QueryClientProvider>
       </React.StrictMode>,
-);
+)
+

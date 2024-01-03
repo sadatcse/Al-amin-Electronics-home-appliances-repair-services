@@ -21,26 +21,41 @@ const queryClient = new QueryClient();
 
 import Root from './components/Root';
 import AuthProvider from './providers/AuthProvider';
-
-
+import PrivateRoot from './components/Root/PrivateRoot';
+// import AdminRoute from './components/Root/AdminRoute';
 
 // Registration and Login 
 
 import Register from './components/Authentication/Register';
 import Login from './components/Authentication/Login';
 
-//Page 
 
+//About Us Page 
+
+import AboutUs from './components/Page/About/AboutUs';
+import CompleteProject from './components/Page/About/CompleteProject';
+import MeetOurTeam from './components/Page/About/MeetOurTeam';
+import Message from './components/Page/About/Message';
+import OurBusinessPartners from './components/Page/About/OurBusinessPartners';
+import OurMission from './components/Page/About/OurMission';
+
+
+//Pages
 import Home from './components/Page/Home';
+import Contact from './components/Page/Contact/Contact';
+import Testimonial from './components/Section/Homepage/Testimonial';
+import Service from './components/Section/Homepage/Service';
 import Error404 from './components/Page/Error404';
+
+//Product
+import ACSparesParts from './components/Page/Products/ACSparesParts';
+import AirConditioner from './components/Page/Products/AirConditioner';
+
+//Dashboard 
+
+import MyProfile from './components/Page/Dashboard/Universal/MyProfile';
 import Dashboard from './components/Layout/Dashboard';
 
-
-import PrivateRoot from './components/Root/PrivateRoot';
-// import AdminRoute from './components/Root/AdminRoute';
-
-MyProfile
-import MyProfile from './components/Page/Dashboard/Universal/MyProfile';
 
 
 const router = createBrowserRouter([
@@ -63,6 +78,51 @@ const router = createBrowserRouter([
         path: '/register',
         element: <Register></Register>
       },
+      {
+        path: '/aboutus',
+        element:<AboutUs></AboutUs>
+      },
+      {
+        path: '/completeproject',
+        element:<CompleteProject></CompleteProject>
+      },
+      {
+        path: '/ourteam',
+        element: <MeetOurTeam></MeetOurTeam>
+      },
+      {
+        path: '/message',
+        element:<Message></Message>
+      },
+      {
+        path: '/parterners',
+        element: <OurBusinessPartners></OurBusinessPartners>
+      },
+      {
+        path: '/mission',
+        element: <OurMission></OurMission>
+      },
+      {
+        path: '/contact',
+        element: <Contact></Contact>
+      },
+      {
+        path: '/testimonials',
+        element: <Testimonial></Testimonial>
+      },
+      {
+        path: '/service',
+        element: <Service></Service>
+      },
+      {
+        path: '/acsparesparts',
+        element:<ACSparesParts></ACSparesParts>
+      },
+      {
+        path: '/airconditioner',
+        element:<AirConditioner></AirConditioner>
+      },
+      
        
     ]
   },

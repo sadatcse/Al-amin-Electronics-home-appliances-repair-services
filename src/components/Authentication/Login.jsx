@@ -7,6 +7,7 @@ import { FcGoogle } from 'react-icons/fc';
 import axios from 'axios';
 import { Helmet } from 'react-helmet-async';
 import useAxiosPublic from "../Hook/useAxiosPublic";
+import { FaFacebook } from "react-icons/fa";
 
 const Login = () => {
     const axiosPublic = useAxiosPublic();
@@ -65,6 +66,44 @@ const Login = () => {
             console.error(error);
         }
     };
+
+    const handleFacebookSignIn = async () => {
+        try {
+            const result = await signInWithGoogle();
+    
+            const userinfo = {
+                name: result.user?.displayName,
+                uid: result.user?.uid,
+                mobile: result.user?.phoneNumber,
+                email: result.user?.email,
+                Photourl:result.user?.photoURL,
+                gender: '',
+                dateOfBirth: '',
+                education: '',
+                streetName: '',
+                streetNumber: '',
+                area: '',
+                town: '',
+                postCode: '',
+            };
+    
+            console.log(userinfo);
+    
+            const response = await axiosPublic.post('/users', userinfo);
+    
+            if (response.status === 200) {
+                toast.success("Login successful!");
+                navigate(location.state?.from || "/dashboard");
+            } else {
+                toast.error("Failed to create user. Please try again.");
+            }
+        } catch (error) {
+            toast.error("Social login failed. Please try again later.");
+            console.error(error);
+        }
+    };
+
+
     
 
     return (
@@ -111,6 +150,10 @@ const Login = () => {
                         <button onClick={handleGoogleSignIn} className="w-full bg-white border border-gray-400 p-3 flex items-center justify-center rounded-lg">
                             <FcGoogle className="mr-2" />
                             Login With Google
+                        </button>
+                        <button onClick={handleFacebookSignIn} className="w-full bg-white border border-gray-400 p-3 flex items-center justify-center rounded-lg">
+                            <FaFacebook className="mr-2" />
+                            Login With Facebook
                         </button>
                     </div>
                 </form>

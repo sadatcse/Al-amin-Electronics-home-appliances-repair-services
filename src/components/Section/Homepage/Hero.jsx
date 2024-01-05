@@ -1,20 +1,24 @@
 import React from 'react';
+import banner1 from '../../../assets/Banner/Banner1.png'
+import banner2 from '../../../assets/Banner/Banner 2.jpg'
+import banner3 from '../../../assets/Banner/Banner 3.jpg'
+import banner4 from '../../../assets/Banner/Banner 4.jpg'
 
 const Hero = () => {
     return (
         <div>
             <div className="carousel w-full">
   <div id="item1" className="carousel-item w-full">
-    <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" className="w-full" />
+    <img src={banner1} className="w-full" />
   </div> 
   <div id="item2" className="carousel-item w-full">
-    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full" />
+    <img src={banner2} className="w-full" />
   </div> 
   <div id="item3" className="carousel-item w-full">
-    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" className="w-full" />
+    <img src={banner3} className="w-full" />
   </div> 
   <div id="item4" className="carousel-item w-full">
-    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" className="w-full" />
+    <img src={banner4} className="w-full" />
   </div>
 </div> 
 <div className="flex justify-center w-full py-2 gap-2">

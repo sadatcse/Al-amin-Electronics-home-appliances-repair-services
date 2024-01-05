@@ -34,7 +34,7 @@ const Navbar = () => {
             <li><a href='/contact'>Contact</a></li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl"><img className='h-12 w-48' src={logo} alt='logo'></img></a>
+          <a href='/' className="btn btn-ghost text-xl"><img className='h-12 w-48' src={logo} alt='logo'></img></a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

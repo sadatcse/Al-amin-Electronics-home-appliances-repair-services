@@ -6,7 +6,7 @@ import banner4 from '../../../assets/Banner/Banner 4.jpg'
 
 const Hero = () => {
     return (
-        <div>
+        <div className='border-b border-inherit'> 
             <div className="carousel w-full">
   <div id="item1" className="carousel-item w-full">
     <img src={banner1} className="w-full" />

@@ -1,12 +1,21 @@
 
 
 import React from 'react';
+import whychoice from '../../../assets/Section/whychoice.jpg'
 
 const Choice = () => {
   const bulletPoints = [
-    "",
-    ""
-  
+    "24-hour emergency service.",
+    "Fully licensed (Trade license number-TRAD/DNCC/026404/2022).",
+    "In-house system design.",
+    "Indoor air quality improvements.",
+    "Air system balancing.",
+    "HVAC - controls qualified.",
+    "On-going HVAC training.",
+    "Air condition sales & service.",
+    "Specialize in VRF system.",
+    "Always follow safety procedures.",
+    "All kinds of ducting system"
   ];
 
   return (
@@ -15,8 +24,8 @@ const Choice = () => {
         <div>
           <img
             className='max-w-md rounded-lg shadow-lg'
-            src='https://i.ibb.co/ZH552Ly/379843780-686202340209248-838506377395324954-n.jpg'
-            alt='Wedding Planner'
+            src={whychoice}
+            alt='Why Choice'
           />
         </div>
         <div>

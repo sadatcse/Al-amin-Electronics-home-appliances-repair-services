@@ -1,22 +1,27 @@
 import React from 'react';
-import Ourclients from './../Section/Homepage/Ourclients';
-import Testimonial from './../Section/Homepage/Testimonial';
 import Hero from './../Section/Homepage/Hero';
-import Choice from './../Section/Homepage/Choice';
-import Service from './../Section/Homepage/Service';
-import WelcomeMessage from '../Section/Homepage/WelcomeMessage';
+import Ourservice from './../Section/Homepage/Ourservice';
+import Ourproduct from './../Section/Homepage/Ourproduct';
+import ValueableClient from './../Section/Homepage/ValueableClient';
+import ClientSay from './../Section/Homepage/ClientSay';
+import WhyChoice from './../Section/Homepage/WhyChoice';
+import DoortoDoor from './../Section/Homepage/DoortoDoor';
 
 const Home = () => {
     return (
         
         <div>
             <Hero></Hero>
-            <WelcomeMessage></WelcomeMessage>
-            
-            <Choice></Choice>
-            <Service></Service>
-            <Testimonial></Testimonial>
-            <Ourclients></Ourclients>
+            <div className='mb-10'>
+            <Ourservice></Ourservice>
+            </div>
+         
+            <Ourproduct></Ourproduct>
+            <ValueableClient></ValueableClient>
+            <ClientSay></ClientSay>
+            <WhyChoice></WhyChoice>
+           
+
         </div>
     );
 };

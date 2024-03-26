@@ -43,8 +43,8 @@ import OurMission from './components/Page/About/OurMission';
 //Pages
 import Home from './components/Page/Home';
 import Contact from './components/Page/Contact/Contact';
-import Testimonial from './components/Section/Homepage/Testimonial';
-import Service from './components/Section/Homepage/Service';
+
+import Service from './components/Page/Service/Service';
 import Error404 from './components/Page/Error404';
 
 //Product
@@ -55,6 +55,12 @@ import AirConditioner from './components/Page/Products/AirConditioner';
 
 import MyProfile from './components/Page/Dashboard/Universal/MyProfile';
 import Dashboard from './components/Layout/Dashboard';
+import Testimonials from './components/Page/Testimonials/Testimonials';
+import ACInstallation from './components/Page/Service/ACInstallation';
+import ACService from './components/Page/Service/ACService';
+import ACmaintenance from './components/Page/Service/ACmaintenance';
+import ACTransfer from './components/Page/Service/ACTransfer';
+import ACRent from './components/Page/Service/ACRent';
 
 
 
@@ -108,12 +114,34 @@ const router = createBrowserRouter([
       },
       {
         path: '/testimonials',
-        element: <Testimonial></Testimonial>
+        element: <Testimonials></Testimonials>
       },
       {
         path: '/service',
         element: <Service></Service>
       },
+      {
+        path: '/services/ac-installation',
+        element: <ACInstallation></ACInstallation>
+      },
+      {
+        path: '/services/ac-service',
+        element: <ACService></ACService>
+      },
+      {
+        path: '/services/ac-maintenance',
+        element: <ACmaintenance></ACmaintenance>
+      },
+      {
+        path: '/services/ac-transfer',
+        element: <ACTransfer></ACTransfer>
+      },
+      {
+        path: '/services/ac-rent',
+        element: <ACRent></ACRent>
+      },
+
+
       {
         path: '/acsparesparts',
         element:<ACSparesParts></ACSparesParts>

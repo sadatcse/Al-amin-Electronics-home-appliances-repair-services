@@ -1,0 +1,43 @@
+[
+    {
+      "serialNumber": 1,
+      "name": "AC Installation",
+      "image": "https://4.imimg.com/data4/TD/ER/MY-26246456/split-ac-fitting-services-500x500.jpg",
+      "buttonColor": "#007bff",
+      "description": "Professional installation services specifically for your home or office. Our experts ensure proper setup for a cool summer.",
+      "detailsUrl": "/services/ac-installation"
+    },
+    {
+      "serialNumber": 2,
+      "name": "AC Service",
+      "image": "https://uniquepower.com.bd/wp-content/uploads/2023/10/ac-servicing-in-bangladesh.jpeg",
+      "buttonColor": "#28a745",
+      "description": "Regular servicing effectively maintains optimal performance, extending your unit's lifespan. Keep your AC running smoothly.",
+      "detailsUrl": "/services/ac-service"
+    },
+    {
+      "serialNumber": 4,
+      "name": "AC Maintenance",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2023/6/315145740/CW/PH/DT/31089092/adobestock-276432902-scaled-500x500.jpg",
+      "buttonColor": "#fd7e14",
+      "description": "Scheduled maintenance prevents breakdowns, ensuring efficient operation year-round. Trust us to keep your AC in top condition.",
+      "detailsUrl": "/services/ac-maintenance"
+    },
+    {
+      "serialNumber": 5,
+      "name": "AC Transfer",
+      "image": "https://example.com/ac_transfer_image.jpg",
+      "buttonColor": "#6f42c1",
+      "description": "Professional transfer service relocates your air conditioner with care. We handle disassembly, transportation, and reinstallation.",
+      "detailsUrl": "/services/ac-transfer"
+    },
+    {
+      "serialNumber": 6,
+      "name": "AC Rent",
+      "image": "https://example.com/ac_rent_image.jpg",
+      "buttonColor": "#20c997",
+      "description": "Temporary rental service for events, construction sites, or temporary accommodations. Stay cool with reliable and affordable solutions.",
+      "detailsUrl": "/services/ac-rent"
+    }
+  ]
+  

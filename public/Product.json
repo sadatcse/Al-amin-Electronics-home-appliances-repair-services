@@ -1,0 +1,113 @@
+[
+    {
+        "title": "WSI-INVERNA (EXTREME SAVER)-12C [SMART]",
+        "air_conditioner_type": "Intelligent Inverter",
+        "product": "Walton",
+        "size": "1 Ton",
+        "price": 65000,
+        "offer_price": 63000,
+        "picture_url": "https://waltonbd.com/image/magictoolbox_cache/cf3e6ec01aac7cb79461bcfe9d0d075e/7/1/7184_product/thumb500x500/2304356218/walton-6-star-wsi-inverna-extreme-saver-12c-smart-front-id-image.jpg",
+        "features": [
+          "Cooling Capacity: 12403 BTU/Hr-3635 Watts",
+          "Compressor: Rotary (Inverter)",
+          "Refrigerant: R-32",
+          "Function: Cooling",
+          "BTU/hr: 12403",
+          "Rated Voltage: 230V ~ 50Hz",
+          "Rated Input Power (W): 690",
+          "Rated Current (A): 3.15",
+          "Cooling Capacity (W): 3635",
+          "EER: 5.25",
+          "Smart Control: Through App"
+        ]
+      },
+      {
+        "title": "WSI-INVERNA (SUPERSAVER)-12F [PLASMA]",
+        "air_conditioner_type": "Intelligent Inverter",
+        "product": "Walton",
+        "size": "1 Ton",
+        "price": 55990,
+        "offer_price": 58990,
+        "picture_url": "https://waltonbd.com/image/magictoolbox_cache/cf3e6ec01aac7cb79461bcfe9d0d075e/6/8/6845_product/thumb500x500/3468099183/wsi-inverna-supersaver-12a-plasma-front-image.jpg",
+        "features": [
+          "Cooling Capacity: 12000 BTU/Hr-3517 Watts",
+          "Compressor: Rotary (Inverter)",
+          "Refrigerant: R-32",
+          "Function: Cooling",
+          "BTU/hr: 12403",
+          "Rated Voltage: 230V ~ 50Hz",
+          "Rated Input Power (W): 925",
+          "Rated Current (A): 4.1",
+          "Cooling Capacity (W): 3517",
+          "EER: 3.8"
+    
+        ]
+      },
+      {
+        "title": "WSI-RIVERINE-18CH",
+        "air_conditioner_type": "Intelligent Inverter",
+        "product": "Walton",
+        "size": "1.5 Ton",
+        "price": 73500,
+        "offer_price": 71500,
+        "picture_url": "https://waltonbd.com/image/magictoolbox_cache/cf3e6ec01aac7cb79461bcfe9d0d075e/5/8/5800_product/thumb500x500/2692340451/wolton-split-type-1.5-ton-commercial-hot-and-cool-intelligent-inverter-air-conditioner-wsi-riverine-18ch.jpg",
+        "features": [
+          "Cooling Capacity: 18000 BTU/Hr-5275 Watts",
+          "Compressor: Rotary (Inverter)",
+          "Refrigerant: R-32",
+          "Function: Heating & Cooling          ",
+          "BTU/hr: 18000",
+          "Rated Voltage: 230V ~ 50Hz",
+          "Rated Input Power (W): 5275",
+          "Rated Current (A): 6.44",
+          "Cooling Capacity (W): 5275",
+          "EER: 3.58",
+          "Cooling & Operating Range: 20˚C to 52˚C          "
+        ]
+      },
+      {
+        "title": "WSN-RIVERINE-24BH        ",
+        "air_conditioner_type": "Intelligent Inverter",
+        "product": "Walton",
+        "size": "2 Ton",
+        "price": 82000,
+        "offer_price": 81000,
+        "picture_url": "https://waltonbd.com/image/magictoolbox_cache/cf3e6ec01aac7cb79461bcfe9d0d075e/4/9/4905_product/thumb500x500/1014060358/walton-2-ton-non-inverter-hot-and-cool-residential-best-air-conditioner-bd-wsn-riverine-24bh.jpg",
+        "features": [
+          "Cooling Capacity: 24000 BTU/Hr-7034 Watts",
+          "Compressor: Rotary (Inverter)",
+          "Refrigerant: R-410a",
+          "Function: Heating & Cooling          ",
+          "BTU/hr: 24000",
+          "Rated Voltage: 230V ~ 50Hz",
+          "Rated Input Power (W): 690",
+          "Rated Current (A): 10.85",
+          "Cooling Capacity (W): 6700",
+          "EER: 2.83",
+          "Heating & Operating Range: –7˚C to 24˚C          "
+        ]
+      },
+      {
+        "title": "WSN-KRYSTALINE-30H        ",
+        "air_conditioner_type": "Non-Inverter        ",
+        "product": "Walton",
+        "size": "2.5 Ton",
+        "price": 100000,
+        "offer_price": 98000,
+        "picture_url": "https://waltonbd.com/image/magictoolbox_cache/cf3e6ec01aac7cb79461bcfe9d0d075e/6/7/6730_product/thumb500x500/1259300719/wsn-krystaline-30h-feature-font-image.jpg",
+        "features": [
+          "Cooling Capacity: 30000 BTU/Hr-8792 Watts",
+          "Compressor: Rotary (Inverter)",
+          "Refrigerant: R-410a",
+          "Function: Turbo Cooling",
+          "BTU/hr: 30000",
+          "Rated Voltage: 230V ~ 50Hz",
+          "Rated Input Power (W): 3200",
+          "Rated Current (A): 15.15",
+          "Cooling Capacity (W): 8792",
+          "EER: 2.75",
+          "Speed Setting: Yes (Auto, High, Medium, Low)          "
+        ]
+      }
+
+]
